@@ -1,5 +1,5 @@
 ---
-title: hexo搭建
+title: 静态博客Hexo搭建
 date: 2018-04-23 00:53:14
 tags:
 ---
