@@ -1,11 +1,38 @@
 ---
-title: 使用Hexo搭建博客
-date: 2018-04-23 00:53:14
-tags:
+
+title: 使用Hexo搭建博客  
+date: 2018-04-23 00:53:14  
+tags:  
+
 ---
 
-具体的搭建过程暂时先不说了，网上一搜一大片。以后有时间再补上，没时间就算了。  
+# 0x01 闲聊  
 
-我的这个hexo博客的git仓库分成了两个，一个是源码库，一个是部署库。本来想着源码提交之后走travis ci的自动部署，折腾了一会儿之后，发现上传ssh key还要装travis ci的客户端，太麻烦了。后来又一想，反正写了文章要提交代码，为什么不直接写一个脚本即提交代码，又发布博客呢。。。果然是把简单事情变复杂了。。
+这篇文章并不准备写成一个从零开始搭建的教程。
 
-不早了，睡觉了，希望以后能坚持更新这个博客吧。
+关于使用Hexo搭建博客的教程，网上一搜一大片。
+
+所以这篇文章只是对自己搭建过程的总结。
+
+
+# 0x02 环境准备
+
+- Windows，主要是在Windows上操作的。不过后面有用到Travis CI做自动构建，所以也用到了Ubuntu。
+
+- GitHub Pages，这个博客就是放在GitHub上，关于GitHub Pages可以根据官方的这个文档创建一个[https://pages.github.com/](https://pages.github.com/ "GitHub Pages")
+
+- Git，[https://git-scm.com/](https://git-scm.com/ "Git")
+
+- Node.js，[https://nodejs.org](https://nodejs.org "Node.js")
+
+# 0x03 Hexo博客搭建
+
+Hexo官网[https://hexo.io](https://hexo.io "Hexo")有详细的教程。
+
+这里需要注意的是Hexo向GitHub推的时候，需要配置ssh key，具体教程百度吧。
+
+GitHub上需要建立两个代码库，一个是username.github.io的库，用来发布生成的博客，这个库的地址参考着Hexo的文档配置到Hexo里。还有一个库是用来存放博客源码的。
+
+# 0x04 利用Travis CI自动构建部署
+
+这部分就需要用到Ubuntu了，因为需要装个Travis CI客户端。具体教程参考这里[https://segmentfault.com/a/1190000004667156](https://segmentfault.com/a/1190000004667156 "Hexo Travis CI")
