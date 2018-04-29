@@ -14,6 +14,13 @@ tags:
 
 所以这篇文章只是对自己搭建过程的总结。
 
+成品可以参考这两个GitHub库：
+
+- 博客源码库 [https://github.com/AceHalo/MyBlog](https://github.com/AceHalo/MyBlog "blog")
+- 发布库 [https://github.com/FutureGazer/futuregazer.github.io](https://github.com/FutureGazer/futuregazer.github.io "blog")
+
+
+
 
 # 0x02 环境准备
 
