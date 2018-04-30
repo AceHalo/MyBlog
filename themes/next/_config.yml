@@ -118,14 +118,14 @@ index_with_subtitle: false
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, question icon will be loaded.
 menu:
   home: / || home
-  #about: /about/ || user
   #tags: /tags/ || tags
   #categories: /categories/ || th
   archives: /archives/ || archive
   #schedule: /schedule/ || calendar
   #sitemap: /sitemap.xml || sitemap
   #commonweal: /404/ || heartbeat
-
+  about: /about.html || user
+  
 # Enable/Disable menu icons / item badges.
 menu_settings:
   icons: true
@@ -154,12 +154,12 @@ site_state: true
 # Key is the link label showing to end users.
 # Value before `||` delimeter is the target permalink.
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, globe icon will be loaded.
-social:
+#social:
   #GitHub: https://github.com/AceHalo || github
-  Weibo: https://weibo.com/friendlykai || weibo
+  #Weibo: https://weibo.com/friendlykai || weibo
   #E-Mail: mailto:yourname@gmail.com || envelope
   #Google: https://plus.google.com/yourname || google
-  Twitter: https://twitter.com/kaze_ix || twitter
+  #Twitter: https://twitter.com/kaze_ix || twitter
   #FB Page: https://www.facebook.com/yourname || facebook
   #VK Group: https://vk.com/yourname || vk
   #StackOverflow: https://stackoverflow.com/yourname || stack-overflow
@@ -180,7 +180,7 @@ social_icons:
 # Usage: `permalink || title`
 # Value before `||` delimeter is the target permalink.
 # Value after `||` delimeter is the title and aria-label name.
-github_banner: https://github.com/AceHalo || Follow me on GitHub
+#github_banner: https://github.com/AceHalo || Follow me on GitHub
 
 # Blog rolls
 links_icon: link
