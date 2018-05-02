@@ -122,7 +122,7 @@ menu:
   #categories: /categories/ || th
   archives: /archives/ || archive
   #schedule: /schedule/ || calendar
-  #sitemap: /sitemap.xml || sitemap
+  friends: /link.html || sitemap
   #commonweal: /404/ || heartbeat
   about: /about.html || user
   
