@@ -124,7 +124,7 @@ menu:
   #schedule: /schedule/ || calendar
   friends: /link.html || sitemap
   #commonweal: /404/ || heartbeat
-  about: /about.html || user
+  #about: /about.html || user
   
 # Enable/Disable menu icons / item badges.
 menu_settings:
@@ -180,7 +180,7 @@ social_icons:
 # Usage: `permalink || title`
 # Value before `||` delimeter is the target permalink.
 # Value after `||` delimeter is the title and aria-label name.
-#github_banner: https://github.com/AceHalo || Follow me on GitHub
+github_banner: https://github.com/AceHalo || Follow me on GitHub
 
 # Blog rolls
 links_icon: link
