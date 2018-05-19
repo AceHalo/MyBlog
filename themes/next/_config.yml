@@ -154,10 +154,10 @@ site_state: true
 # Key is the link label showing to end users.
 # Value before `||` delimeter is the target permalink.
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, globe icon will be loaded.
-social:
+#social:
   #GitHub: https://github.com/AceHalo || github
   #Weibo: https://weibo.com/friendlykai || weibo
-  E-Mail: mailto:neveix@fleep.io || envelope
+  #E-Mail: mailto:neveix@fleep.io || envelope
   #Google: https://plus.google.com/yourname || google
   #Twitter: https://twitter.com/kaze_ix || twitter
   #FB Page: https://www.facebook.com/yourname || facebook
