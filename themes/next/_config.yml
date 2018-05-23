@@ -122,9 +122,9 @@ menu:
   #categories: /categories/ || th
   archives: /archives/ || archive
   #schedule: /schedule/ || calendar
-  friends: /link.html || sitemap
+  friends: /links || sitemap
   #commonweal: /404/ || heartbeat
-  #about: /about.html || user
+  about: /about || user
   
 # Enable/Disable menu icons / item badges.
 menu_settings:
@@ -156,7 +156,7 @@ site_state: true
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, globe icon will be loaded.
 social:
   #GitHub: https://github.com/AceHalo || github
-  #Weibo: https://weibo.com/friendlykai || weibo
+  Weibo: https://weibo.com/friendlykai || weibo
   #E-Mail: mailto:neveix@fleep.io || envelope
   #Google: https://plus.google.com/yourname || google
   Twitter: https://twitter.com/kaze_ix || twitter
