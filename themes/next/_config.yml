@@ -122,9 +122,9 @@ menu:
   #categories: /categories/ || th
   archives: /archives/ || archive
   #schedule: /schedule/ || calendar
-  friends: /links || sitemap
+  friends: /links/ || sitemap
   #commonweal: /404/ || heartbeat
-  about: /about || user
+  about: /about/ || user
   
 # Enable/Disable menu icons / item badges.
 menu_settings:
