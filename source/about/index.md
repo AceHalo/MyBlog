@@ -22,9 +22,8 @@ date: 2018-05-23 23:07:51
 ----------
 ### 其他
 
-<del>博主还有另一个非技术博客，欢迎访问</del>  
-<del>[https://i.acehalo.com](https://i.acehalo.com "https://i.acehalo.com")</del>  
-上面的博客不再使用~
+博主还有另一个非技术博客，欢迎访问  
+[http://kaze.acehalo.com](http://kaze.acehalo.com "http://kaze.acehalo.com")
 
 ----------
 
