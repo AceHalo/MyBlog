@@ -7,27 +7,29 @@ date: 2018-05-23 23:07:51
 
 
 ----------
-### 这里
+**这里**
 
-这里是一个纯粹的技术博客    
-如果有什么问题可以给我发邮件  
-邮箱地址在我Github主页信息里  
+- 这里是一个纯粹的技术博客    
 
 ----------
-### 博主
+**博主**
 
-90后~  
-目前在一家互联网公司从事服务端开发工作~
-
-----------
-### 其他
-
-博主还有另一个非技术博客，欢迎访问  
-[http://kaze.acehalo.com](http://kaze.acehalo.com "http://kaze.acehalo.com")
+- 90后~  
+- 目前在一家互联网公司从事服务端开发工作~
 
 ----------
+**联系**
 
-### PGP 
+- Github：[AceHalo](https://github.com/AceHalo "AceHalo")
+- Twitter：[@kaze_ix](https://twitter.com/kaze_ix "kaze_ix")
+- Weibo：[@AxiaEpoch](https://weibo.com/friendlykai "AxiaEpoch")
+- Mastodon：[@natsu_ix](https://pawoo.net/@natsu_ix "natsu_ix")
+- 日常博客：[http://kaze.acehalo.com](http://kaze.acehalo.com "http://kaze.acehalo.com")
+
+
+----------
+
+**PGP**
 <pre>
 
 -----BEGIN PGP PUBLIC KEY BLOCK-----
