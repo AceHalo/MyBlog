@@ -19,6 +19,48 @@
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="{{ page.lang || page.language || config.language }}">
 
+<!-- background -->
+<link rel="stylesheet" href="/css/star_style.css">
+<script id="vertexShader" type="x-shader/x-vertex">
+uniform float time;
+varying vec3 vNormal;
+      
+void main(void) {
+   vec3 v = position;
+   vNormal = normal;
+   v.z += cos(2.0 * position.x + (time)) * 4085.5;
+	
+   gl_Position = projectionMatrix *
+                modelViewMatrix *
+                vec4(v, 1.0);
+}
+</script>
+<script id="fragmentShader" type="x-shader/x-fragment">
+varying vec3 vNormal;
+uniform float time;
+      
+void main(void) {
+    vec3 light = vec3(0.1, .9, .1);
+
+    light = normalize(light);
+
+    float dProd = max(0.2, dot(vNormal, light));
+
+    gl_FragColor = vec4(dProd, // R
+                      dProd, // G
+                      dProd, // B
+                      1.0);  // A
+}
+
+</script>
+<script src='/js/three.min.js'></script>
+<script src="/js/star_index.js"></script>
+<!-- background done -->
+
+
+
+
+
   {% set container_class = "container " %}
   {% if theme.sidebar.position %}
     {% set container_class = container_class + 'sidebar-position-' + theme.sidebar.position %}
@@ -100,5 +142,22 @@
   {% include '_third-party/exturl.swig' %}
   {% include '_third-party/bookmark.swig' %}
   {% include '_third-party/copy-code.swig' %}
+  
+    <!-- music -->  
+    <script>
+	if(typeof(is_home_page) != 'undefined'){
+		var sidebar = document.getElementById('sidebar');
+		var music_box = document.createElement('iframe');
+		sidebar.appendChild(music_box);
+		music_box.setAttribute("frameborder","no");
+		music_box.setAttribute("border","0");
+		music_box.setAttribute("marginwidth","0");
+		music_box.setAttribute("marginheight","0");
+		music_box.setAttribute("width","330");
+		music_box.setAttribute("height","86");
+		music_box.setAttribute("src","//music.163.com/outchain/player?type=2&id=41652392&auto=1&height=66");
+	}
+	</script>
+	<!-- music done-->  
 </body>
 </html>

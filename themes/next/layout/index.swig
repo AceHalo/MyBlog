@@ -8,7 +8,10 @@
   {% if is_home() %}page-home{% endif -%}
 {% endblock %}
 
-{% block content %}
+{% block content %}  
+    <script>
+	  var is_home_page = true;
+	</script>
   <section id="posts" class="posts-expand">
     {% for post in page.posts %}
       {{ post_template.render(post, true) }}
