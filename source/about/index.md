@@ -24,11 +24,13 @@ date: 2018-05-23 23:07:51
 - Twitter：[@kaze_ix](https://twitter.com/kaze_ix "kaze_ix")
 - Weibo：[@AxiaEpoch](https://weibo.com/friendlykai "AxiaEpoch")
 - Mastodon：[@natsu_ix](https://pawoo.net/@natsu_ix "natsu_ix")
-- 日常博客：[http://kaze.acehalo.com](http://kaze.acehalo.com "http://kaze.acehalo.com")
-
 
 ----------
+**其他**
 
+- 另一个博客( 主要用来写非技术类文章 )：[http://kaze.acehalo.com](http://kaze.acehalo.com "http://kaze.acehalo.com")
+
+----------
 **PGP**
 <pre>
 
