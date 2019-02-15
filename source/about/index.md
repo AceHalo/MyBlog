@@ -28,7 +28,7 @@ date: 2018-05-23 23:07:51
 ----------
 **其他**
 
-- 另一个博客( 主要用来写非技术类文章 )：[http://kaze.acehalo.com](http://kaze.acehalo.com "http://kaze.acehalo.com")
+- 另一个博客( 主要用来写非技术类文章 )：[https://kazeix.wordpress.com](https://kazeix.wordpress.com "https://kazeix.wordpress.com")
 
 ----------
 **PGP**
