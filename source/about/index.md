@@ -18,17 +18,9 @@ date: 2018-05-23 23:07:51
 - 目前在一家互联网公司从事服务端开发工作~
 
 ----------
-**联系**
-
-- Github：[AceHalo](https://github.com/AceHalo "AceHalo")
-- Twitter：[@kaze_ix](https://twitter.com/kaze_ix "kaze_ix")
-- Weibo：[@AxiaEpoch](https://weibo.com/friendlykai "AxiaEpoch")
-- Mastodon：[@natsu_ix](https://pawoo.net/@natsu_ix "natsu_ix")
-
-----------
 **其他**
 
-- 另一个博客( 主要用来写非技术类文章 )：[https://kazeix.wordpress.com](https://kazeix.wordpress.com "https://kazeix.wordpress.com")
+- 了解更多信息：[https://blog.acehalo.com](https://blog.acehalo.com "https://blog.acehalo.com")
 
 ----------
 **PGP**
