@@ -21,6 +21,7 @@ date: 2018-05-23 23:07:51
 **其他**
 
 - 了解更多信息：[https://blog.acehalo.com](https://blog.acehalo.com "https://blog.acehalo.com")
+- 有个新建的slack群，但是没有什么人，欢迎加入：[邀请链接](https://join.slack.com/t/masaka-halo/shared_invite/enQtNTc0MTE5NDcxNDU4LWUyMzc3NDdiZTRmOGUyMmU4YjRkOTMwYjEzNGIyNGFlODQwMjM5Zjk1ZTVkY2I4NmZkOTQzNWE0NjViNzg1NjM)
 
 ----------
 **PGP**
