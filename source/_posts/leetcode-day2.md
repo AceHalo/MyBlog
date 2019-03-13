@@ -2,7 +2,7 @@
 
 title: 每天几道Leetcode系列day2
 date: 2019/03/13 22:58:00
-description: 每天刷几道leetcode题目系列，解法不一定是最优的 【4. Median of Two Sorted Arrays】
+description: 每天刷几道leetcode题目系列，解法不一定是最优的 【4. Median of Two Sorted Arrays】&& 【2. Add Two Numbers】
 categories:
 - leetcode
 tags:
@@ -75,3 +75,65 @@ class Solution:
 
 
 
+### 2. Add Two Numbers
+
+[题目链接](https://leetcode.com/problems/add-two-numbers/)
+
+这里利用了Python的一些特性，比如int本身就是大整数类型
+
+解题思路：  
+1.把链表弄成数字
+2.数字相加
+3.将结果转换会链表
+
+code：
+
+```
+# Definition for singly-linked list.
+# class ListNode:
+#     def __init__(self, x):
+#         self.val = x
+#         self.next = None
+
+class Solution:
+    def addTwoNumbers(self, l1: ListNode, l2: ListNode) -> ListNode:
+        lst1 = []
+        lst1.append(str(l1.val))
+        while l1.next is not None:
+            l1 = l1.next
+            lst1.append(str(l1.val))
+            
+        lst2 = []
+        lst2.append(str(l2.val))
+        while l2.next is not None:
+            l2 = l2.next
+            lst2.append(str(l2.val))
+            
+        lst1.reverse()
+        lst2.reverse()
+
+        num1 = "".join(lst1)
+        num2 = "".join(lst2)
+
+        num = int(num1)+int(num2)
+
+        lst = []
+        for i in str(num):
+            lst.append(i)
+
+        lst.reverse()
+
+        first_node = None
+        pre_node = None
+
+        for i in lst:
+            node = ListNode(i)
+            if pre_node is not None:
+                pre_node.next = node
+            else:
+                first_node = node
+            pre_node = node
+
+        return first_node
+
+```
