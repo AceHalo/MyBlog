@@ -2,7 +2,7 @@
 
 title: 每天几道Leetcode系列day2
 date: 2019/03/13 22:58:00
-description: 每天刷寄到leetcode题目系列，解法不一定是最优的
+description: 每天刷几道leetcode题目系列，解法不一定是最优的 【4. Median of Two Sorted Arrays】
 categories:
 - leetcode
 tags:

@@ -2,7 +2,7 @@
 
 title: 每天几道Leetcode系列day1
 date: 2019/03/13 00:28:00
-description: 每天刷寄到leetcode题目系列，解法不一定是最优的
+description: 每天刷几道leetcode题目系列，解法不一定是最优的 【3. Longest Substring Without Repeating Characters】
 categories:
 - leetcode
 tags:
