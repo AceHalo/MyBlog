@@ -155,7 +155,7 @@ void main(void) {
 		music_box.setAttribute("marginheight","0");
 		music_box.setAttribute("width","330");
 		music_box.setAttribute("height","86");
-		music_box.setAttribute("src","//music.163.com/outchain/player?type=2&id=28656154&auto=1&height=66");
+		music_box.setAttribute("src","//music.163.com/outchain/player?type=2&id=593469&auto=1&height=66");
 	}
 	</script>
 	<!-- music done-->  

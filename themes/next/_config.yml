@@ -125,7 +125,7 @@ menu:
   friends: /links/ || sitemap
   #commonweal: /404/ || heartbeat
   about: /about/ || user
-  Intro: /english/ || language
+  #Intro: /english/ || language
   
 # Enable/Disable menu icons / item badges.
 menu_settings:

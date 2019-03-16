@@ -10,18 +10,24 @@ date: 2018-05-23 23:07:51
 **这里**
 
 - 这里是一个以技术为主的博客    
+- 这个博客托管在GitHub Pages上，所以会很稳定，不会哪天一不小心被博主干掉了
+
 
 ----------
 **博主**
 
-- 90后~  
-- 目前在一家互联网公司从事服务端开发工作~
+- 90后
+- 男
+- 是一名软件工程师
+- 在一家互联网公司从事服务端开发工作
 
 ----------
 **其他**
 
 - 了解更多信息：[https://blog.acehalo.com](https://blog.acehalo.com "https://blog.acehalo.com")
 - 有个新建的slack群，但是没有什么人，欢迎加入：[邀请链接](https://join.slack.com/t/masaka-halo/shared_invite/enQtNTc0MTE5NDcxNDU4LWUyMzc3NDdiZTRmOGUyMmU4YjRkOTMwYjEzNGIyNGFlODQwMjM5Zjk1ZTVkY2I4NmZkOTQzNWE0NjViNzg1NjM)
+- 联系邮箱：wellkv@gmail.com
+
 
 ----------
 **PGP**
