@@ -57,10 +57,6 @@ void main(void) {
 <script src="/js/star_index.js"></script>
 <!-- background done -->
 
-
-
-
-
   {% set container_class = "container " %}
   {% if theme.sidebar.position %}
     {% set container_class = container_class + 'sidebar-position-' + theme.sidebar.position %}
@@ -69,7 +65,7 @@ void main(void) {
   <div class="{{ container_class }} {% block page_class %}{% endblock %}">
     <div class="headband"></div>
 
-    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader" style="opacity:0.7;">
       <div class="header-inner">{% include '_partials/header/index.swig' %}</div>
     </header>
 
@@ -92,7 +88,7 @@ void main(void) {
       </div>
     </main>
 
-    <footer id="footer" class="footer">
+    <footer id="footer" class="footer" style="opacity:0.7;">
       <div class="footer-inner">
         {{ partial('_partials/footer.swig', {}, {cache: theme.cache.enable}) }}
         {% include '_third-party/analytics/analytics-with-widget.swig' %}
@@ -147,6 +143,7 @@ void main(void) {
     <script>
 	if(typeof(is_home_page) != 'undefined'){
 		var sidebar = document.getElementById('sidebar');
+    /*
 		var music_box = document.createElement('iframe');
 		sidebar.appendChild(music_box);
 		music_box.setAttribute("frameborder","no");
@@ -155,7 +152,8 @@ void main(void) {
 		music_box.setAttribute("marginheight","0");
 		music_box.setAttribute("width","330");
 		music_box.setAttribute("height","86");
-		music_box.setAttribute("src","//music.163.com/outchain/player?type=2&id=593469&auto=1&height=66");
+		music_box.setAttribute("src","//music.163.com/outchain/player?type=2&id=593469&auto=1&height=66");、
+    */
 	}
 	</script>
 	<!-- music done-->  
