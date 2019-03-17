@@ -8,7 +8,7 @@
     <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
     <script>
         $(document).ready(function () {
-            $(document).attr("title", "友链");
+            $(document).attr("title", "友链 " + $(document).attr("title"));
             generate_links();
         });
 
@@ -25,10 +25,11 @@
             });
 
 
-            lst.sort(function(a,b){ return Math.random()>.5 ? -1 : 1;});
+            lst.sort(function (a, b) { return Math.random() > .5 ? -1 : 1; });
 
-            html = '<div>如需申请友链，请给我发送邮件，邮箱: wellkv@gmail.com ，请尽量留下可用的联系方式。</div>';
-            html += '<div>申请友链，需要提供：1.博客地址 2.博客名 3.博客描述 [可选] 4.博客头像 [可选] 5.一张背景图 [可选] 。</div>';
+            html = '<div>如果要交换友链，给我发邮件就好: wellkv@gmail.com ，请尽量留下可用的联系方式。</div>';
+            html += '<div>不要求你的博客一定是技术类的，但是主题要积极向上，同时是非商业性质的博客。</div>';
+            html += '<div>需要提供：1.博客地址 2.博客名 3.博客描述 [可选] 4.博客头像 [可选] 5.一张背景图 [可选] 。</div>';
             html += '<div>我会不定期检测链接是否可用，如果不可用，我将会多次尝试联系你，如果联系不到你，我将移除它，需要加回来再联系我即可。</div>';
             html += '以下是友链，列表随机排序:'
 
@@ -36,16 +37,16 @@
             for (i in lst) {
 
                 item = lst[i];
-                
-                bg_style="#eee";
-                if(typeof item.avatar != 'undefined'){
-                    bg_style = "background-image:url("+item.avatar+");background-size:100px 100px;background-repeat:no-repeat;background-position: right center;"
-                }else{
-                    bg_style = "background-color:"+item.color+";"
+
+                bg_style = "#eee";
+                if (typeof item.avatar != 'undefined') {
+                    bg_style = "background-image:url(" + item.avatar + ");background-size:100px 100px;background-repeat:no-repeat;background-position: right center;"
+                } else {
+                    bg_style = "background-color:" + item.color + ";"
                 }
 
                 html += '<li>';
-                html += '<a href="' + item.link + '" target="_blank"> <div style="background-color:#eee;"> <div style="clear:both;height:100px;padding:5px;margin-top:10px;margin-bottom:10px;overflow:hidden;'+bg_style+'">';
+                html += '<a href="' + item.link + '" target="_blank"> <div style="background-color:#eee;"> <div style="clear:both;height:100px;padding:5px;margin-top:10px;margin-bottom:10px;overflow:hidden;' + bg_style + '">';
                 html += '<div style="float:left;opacity:1;color:black"><div><h2>' + item.name + '</h2></div><div style="float:left">' + item.des + '</div></div>';
                 html += '</div> </div> </a>'
                 html += '</li>'
