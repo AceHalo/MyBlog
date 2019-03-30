@@ -25,7 +25,7 @@ date: 2018-05-23 23:07:51
 **其他**
 
 - 了解更多信息：[https://blog.acehalo.com](https://blog.acehalo.com "https://blog.acehalo.com")
-- 有个新建的slack群，但是没有什么人，欢迎加入：[邀请链接](https://join.slack.com/t/masaka-halo/shared_invite/enQtNTc0MTE5NDcxNDU4LWUyMzc3NDdiZTRmOGUyMmU4YjRkOTMwYjEzNGIyNGFlODQwMjM5Zjk1ZTVkY2I4NmZkOTQzNWE0NjViNzg1NjM)
+- 有个新建的slack群，但是没有什么人（其实到目前为止除了我自己外并没有其他人），欢迎加入：[邀请链接](https://join.slack.com/t/masaka-halo/shared_invite/enQtNTc0MTE5NDcxNDU4LWUyMzc3NDdiZTRmOGUyMmU4YjRkOTMwYjEzNGIyNGFlODQwMjM5Zjk1ZTVkY2I4NmZkOTQzNWE0NjViNzg1NjM)
 - 联系邮箱：wellkv@gmail.com
 
 
