@@ -1,0 +1,55 @@
+<html>
+
+<head>
+    <title>友链</title>
+</head>
+
+<body>
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(document).attr("title", "友链 " + $(document).attr("title"));
+            generate_links();
+        });
+
+        function generate_links() {
+
+            lst = [];
+
+            lst.push({
+                name: "码路漫漫",
+                des: "",
+                link: "https://reecode.github.io/",
+                avatar: "https://reecode.github.io/images/avatar.png",
+                color: "#666"
+            });
+		
+
+            lst.sort(function (a, b) { return Math.random() > .5 ? -1 : 1; });
+
+            html = '';
+            //html = '<div>如果要交换友链，给我发邮件就好: wellkv@gmail.com</div>';
+            //html += '以下列表随机排序:'
+
+            html += '<ul style="list-style-type:none;padding:0px">';
+            for (i in lst) {
+
+                item = lst[i];
+
+                bg_style = "#eee";
+
+                html += '<li>';
+                html += '<a href="' + item.link + '" target="_blank">';
+                html += '<span>' + item.name + '</span>';
+                html += '</a>'
+                html += '</li>'
+            }
+            html += '</ul>';
+
+            $("#content").html(html);
+
+        }
+    </script>
+</body>
+
+</html>
