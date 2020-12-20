@@ -28,7 +28,6 @@ date: 2018-05-23 23:07:51
 **社交网络**
 
 - Weibo：[@AxiaEpoch](https://weibo.com/friendlykai)
-- 记录乱七八糟想法和日常的博客：[时空の序章](https://neve.moe/)
 
 ----------
 **PGP**
