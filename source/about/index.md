@@ -11,6 +11,7 @@ date: 2018-05-23 23:07:51
 
 - 这里是一个以技术为主的博客
 - 这个博客托管在GitHub Pages上，所以会很稳定，不会哪天一不小心被博主干掉了
+- 旧博客：[https://www.cnblogs.com/acehalo](https://www.cnblogs.com/acehalo)
 
 ----------
 **博主**
